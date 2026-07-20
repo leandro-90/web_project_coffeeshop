@@ -1,17 +1,17 @@
 # Cafeteria Triple Espresso
 --------------------------------------
-**Header: Cabeçalho**
+**Cabeçalho**
 
 --
-**Section: Receitas**
-
-
---
-**Section: Reservation**
+**Receitas**
 
 
 --
-**Footer: Rodapé**
+**Reservation**
+
+
+--
+**Rodapé**
 
 
 --

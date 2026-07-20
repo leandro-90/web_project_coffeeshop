@@ -3,6 +3,7 @@
   position: relative;
   color: white;
   padding: 60px 80px;
+  overflow: hidden;
 }
 
 .footer__circle {
@@ -27,23 +28,29 @@
   background-position: center;
   background-repeat: no-repeat;
   margin-right: auto;
+  z-index: 1;
 }
 
 .list {
   list-style-type: none;
   padding-left: 0;
+  margin: 20px 0 0 0;
 }
 
 .list-item {
   display: flex;
+  margin-top: 16px;
+  align-items: flex-start;
 }
 
 .social-icon_facebook {
   background-image: url(../images/facebook_white.svg);
+  margin-right: 10px;
 }
 
 .social-icon_instagram {
   background-image: url(../images/instagram_white.svg);
+  margin-right: 10px;
 }
 
 .social-icon_facebook,
