@@ -1,146 +1,218 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cafeteria Triple10">
-  <meta name="author" content="Leandro">
-  <meta name="keywords" content="HTML, CSS, JavaScript.">
-  <link rel="shortcut icon" href="./favicon_coffee_bean.ico" type="image/x-icon">
-  <title>Coffee project</title>
-  <link rel="stylesheet" href="./pages/index.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="page">
-    <header class="header">
-      <nav class="nav">
-        <img class="nav__logo" src="images/logo_coffeeshop_dark.svg" alt="Logo da Triple espresso.">
-        <ul class="nav__links">
-          <li>
-            <a class="nav__link" href="#recipes">Receitas</a>
-          </li>
-          <li>
-            <a class="nav__link" href="#reservation">Reservar uma mesa</a>
-          </li>
-          <li>
-            <a class="nav__link" href="#contact">Contatos</a>
-          </li>
-        </ul>
-      </nav>
-      <h1 class="header__title">
-        <span class="span-accent">Café especial</span><br><span class="span-accent2">na bibloteca Triple Peaks</span>
-      </h1>
-      <p class="header__description">
-        Esta é a nossa zona de estudo! Temos aquele cafezinho para energizar<br> você e vibrações aconchegantes para soltar a criatividade.
-      </p>
-      <img class="header__image" src="./images/inside_coffee_shop.png" alt="Imagem ilustrativa Cafeteria Trilple Peaks.">
-      <div class="header__footer">
-        <div class="paragraphs">
-          <p class="header__paragraph">Horário:</p>
-          <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
-          <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Cafeteria Triple10" />
+    <meta name="author" content="Leandro" />
+    <meta name="keywords" content="HTML, CSS, JavaScript." />
+    <link
+      rel="shortcut icon"
+      href="./favicon_coffee_bean.ico"
+      type="image/x-icon"
+    />
+    <title>Coffee project</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            class="nav__logo"
+            src="images/logo_coffeeshop_dark.svg"
+            alt="Logo da Triple espresso."
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes">Receitas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation">Reservar uma mesa</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#contact">Contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="span-accent">Café especial</span><br /><span
+            class="span-accent2"
+            >na bibloteca Triple Peaks</span
+          >
+        </h1>
+        <p class="header__description">
+          Esta é a nossa zona de estudo! Temos aquele cafezinho para
+          energizar<br />
+          você e vibrações aconchegantes para soltar a criatividade.
+        </p>
+        <img
+          class="header__image"
+          src="./images/inside_coffee_shop.png"
+          alt="Imagem ilustrativa Cafeteria Trilple Peaks."
+        />
+        <div class="header__footer">
+          <div class="paragraphs">
+            <p class="header__paragraph">Horário:</p>
+            <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
+            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+          </div>
           <p class="header__paragraph" id="header__addres">
             200 Success Avenue, a cidade de Triple Peaks
           </p>
-      </div>
-    </header>
-    <main class="content">
-      <section class="recipes" id="recipes">
-        <h2 class="recipes__title">
-          Receitas
-        </h2>
-        <p class="recipes__subtitle">
-          Confira algumas receitas que coletamos para o seu lanchinho caseiro:
-        </p>
-        <div class="recipes__videos">
-          <div class="video-item">
-            <iframe
-            class="recipes__iframe"
-            src="https://www.youtube.com/embed/2rddGj6p6x4?si=A2MeSRWfVWAXF4Xi"
-            title="YouTube div player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
-            <h4 class="video-caption">
-              Torta Fácil de chocolate no liquidificador
-            </h4>
-          </div>
-          <div class="video-item">
-            <iframe
-            class="recipes__iframe"
-            src="https://www.youtube.com/embed/__rtbSd_OwI?si=8UZRWCBXDckgaPpp"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
-            <h4 class="video-caption">
-              Bolo fofinho de cenoura com calda de chocolate
-            </h4>
-          </div>
         </div>
-      </section>
-      <section class="reservation" id="reservation">
-          <h1 class="reservation__title">
-            Reservar uma mesa
-          </h1>
+      </header>
+      <main class="content">
+        <section class="recipes" id="recipes">
+          <h2 class="recipes__title">Receitas</h2>
+          <p class="recipes__subtitle">
+            Confira algumas receitas que coletamos para o seu lanchinho caseiro:
+          </p>
+          <div class="recipes__videos">
+            <div class="video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/2rddGj6p6x4?si=A2MeSRWfVWAXF4Xi"
+                title="YouTube div player"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <h4 class="video-caption">
+                Torta Fácil de chocolate no liquidificador
+              </h4>
+            </div>
+            <div class="video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/__rtbSd_OwI?si=8UZRWCBXDckgaPpp"
+                title="YouTube video player"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+              <h4 class="video-caption">
+                Bolo fofinho de cenoura com calda de chocolate
+              </h4>
+            </div>
+          </div>
+        </section>
+        <section class="reservation" id="reservation">
+          <h1 class="reservation__title">Reservar uma mesa</h1>
           <form class="form reservation__form">
             <fieldset class="reservation__form form__fieldset">
-              <label class="form__fieldset form__fieldset_label" for="nome">Nome *</label>
-              <input class="form__fieldset form__fieldset_input" id="nome" type="text" placeholder="  Nome" required>
-              <label class="form__fieldset form__fieldset_label" for="numero">Número de convidados *</label>
-              <input class="form__fieldset form__fieldset_input" id="numero" min="1" max="8" type="number" placeholder="  1-8" required>
-              <label class="form__fieldset form__fieldset_label" for="data">Data e hora *</label>
-              <input class="form__fieldset form__fieldset_input" id="data" type="datetime-local" required>
-              <label class="form__fieldset form__fieldset_label" for="email">Seu email *</label>
-              <input class="form__fieldset form__fieldset_input" id="email" type="email" placeholder="  email@email.com" required>
-              <button class="form__fieldset form__fieldset_button" type="submit">Reservar uma mesa</button>
+              <label class="form__fieldset form__fieldset_label" for="nome"
+                >Nome *</label
+              >
+              <input
+                class="form__fieldset form__fieldset_input"
+                id="nome"
+                type="text"
+                placeholder="  Nome"
+                required
+              />
+              <label class="form__fieldset form__fieldset_label" for="numero"
+                >Número de convidados *</label
+              >
+              <input
+                class="form__fieldset form__fieldset_input"
+                id="numero"
+                min="1"
+                max="8"
+                type="number"
+                placeholder="  1-8"
+                required
+              />
+              <label class="form__fieldset form__fieldset_label" for="data"
+                >Data e hora *</label
+              >
+              <input
+                class="form__fieldset form__fieldset_input"
+                id="data"
+                type="datetime-local"
+                required
+              />
+              <label class="form__fieldset form__fieldset_label" for="email"
+                >Seu email *</label
+              >
+              <input
+                class="form__fieldset form__fieldset_input"
+                id="email"
+                type="email"
+                placeholder="  email@email.com"
+                required
+              />
+              <button
+                class="form__fieldset form__fieldset_button"
+                type="submit"
+              >
+                Reservar uma mesa
+              </button>
               <label class="form__fieldset form__fieldset_term">
-                <input class="form__fieldset form__fieldset_input" id="termo" type="checkbox" required>
-                <label class="form__fieldset form__fieldset_label"for="termo">
+                <input
+                  class="form__fieldset form__fieldset_input"
+                  id="termo"
+                  type="checkbox"
+                  required
+                />
+                <label class="form__fieldset form__fieldset_label" for="termo">
                   Eu concordo com o termos de uso
                 </label>
               </label>
             </fieldset>
           </form>
-      </section>
-    </main>
-    <footer class="footer" id="contact">
-      <div class="footer__circle">
-
-      </div>
-      <div class="footer__content">
-        <div class="logo">
-
-        </div>
-        <nav class="social">
-          <div class="social-heading">
-            Mídia social
-          </div>
-          <ul class="list">
-            <li class="list-item">
-              <div class="social-icon_facebook">
-
-              </div>
+        </section>
+      </main>
+      <footer class="footer" id="contact">
+        <div class="footer__circle"></div>
+        <div class="footer__content">
+          <div class="logo"></div>
+          <nav class="social">
+            <div class="social-heading">Mídia social</div>
+            <ul class="list">
+              <li class="list-item">
+                <div class="social-icon_facebook"></div>
                 <a class="social-link" href="#">Facebook</a>
-            </li>
-            <li class="list-item">
-              <div class="social-icon_instagram">
-              </div>
+              </li>
+              <li class="list-item">
+                <div class="social-icon_instagram"></div>
                 <a class="social-link" href="#">Instagram</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-      <div class="footer__copyright">
-        @ 2026 Leandro Ferreira
-      </div>
-    </footer>
-  </div>
-</body>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__copyright">@ 2026 Leandro Ferreira</div>
+      </footer>
+    </div>
+  </body>
 </html>
-
