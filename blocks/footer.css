@@ -37,10 +37,13 @@
   margin: 20px 0 0 0;
 }
 
+.social-heading {
+  font-weight: bold;
+}
+
 .list-item {
   display: flex;
   margin-top: 16px;
-  align-items: flex-start;
 }
 
 .social-icon_facebook {
