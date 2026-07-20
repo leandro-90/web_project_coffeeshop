@@ -59,6 +59,10 @@
   opacity: 70%;
 }
 
+.form__fieldset_button:hover {
+  opacity: 70%;
+}
+
 .form__fieldset_term {
   display: flex;
   flex-direction: row;

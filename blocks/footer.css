@@ -67,7 +67,7 @@
   color: white;
 }
 
-.social-link:focus {
+.social-link:hover:focus {
   color: #c1c1c1;
 }
 

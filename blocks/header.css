@@ -36,6 +36,9 @@
   line-height: 20px;
 }
 
+.nav__link:hover {
+  color: #2F80ED;
+}
 
 .nav__link {
   margin-left: 20px;
