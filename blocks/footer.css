@@ -1,0 +1,66 @@
+.footer {
+  background-color: #0a2850;
+  position: relative;
+  color: white;
+  padding: 60px 80px;
+}
+
+.footer__circle {
+  height: 340px;
+  width: 340px;
+  background-color: #2F80ED;
+  border-radius: 50%;
+  position: absolute;
+  top: -128px;
+  left: -44px;
+}
+
+.footer__content {
+  display: flex;
+}
+
+.logo {
+  height: 39px;
+  width: 105px;
+  background-image: url(../images/logo_coffeeshop_light.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: auto;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-item {
+  display: flex;
+}
+
+.social-icon_facebook {
+  background-image: url(../images/facebook_white.svg);
+}
+
+.social-icon_instagram {
+  background-image: url(../images/instagram_white.svg);
+}
+
+.social-icon_facebook,
+.social-icon_instagram {
+  height: 16px;
+  width: 16px;
+}
+
+.social-link {
+  text-decoration: none;
+  color: white;
+}
+
+.social-link:focus {
+  color: #c1c1c1;
+}
+
+.footer__copyright {
+  margin-top: 108px;
+}
