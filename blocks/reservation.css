@@ -17,56 +17,9 @@
   line-height: 52px;
 }
 
-.form__fieldset_label {
-  font-weight: 500;
-}
-
-.form__fieldset_input {
-  margin-bottom: 32px;
-  margin-top: 8px;
-  line-height: 30px;
-}
-
-.form__fieldset_input::placeholder {
-  font-size: 20px;
-}
-
 .reservation__form {
   max-width: 385px;
   margin: 0 auto 0 auto;
-}
-
-.form__fieldset {
-  display: flex;
-  flex-direction: column;
-}
-
-.form__fieldset_input,
-.form__fieldset_button {
-  border-radius: 4px;
-}
-
-.form__fieldset_button,
-.form__fieldset_input {
-  line-height: 60px;
-}
-
-.form__fieldset_button {
-  background-color: #2f80ed;
-}
-
-.form__fieldset_button:hover {
-  opacity: 70%;
-}
-
-.form__fieldset_button:hover {
-  opacity: 70%;
-}
-
-.form__fieldset_term {
-  display: flex;
-  flex-direction: row;
-  margin: 8px auto 0 auto;
 }
 
 #termo {

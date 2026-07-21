@@ -1,0 +1,5 @@
+.form__fieldset_term {
+  display: flex;
+  flex-direction: row;
+  margin: 8px auto 0 auto;
+}

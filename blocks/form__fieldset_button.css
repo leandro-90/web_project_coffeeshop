@@ -1,0 +1,17 @@
+.form__fieldset_input,
+.form__fieldset_button {
+  border-radius: 4px;
+}
+
+.form__fieldset_button,
+.form__fieldset_input {
+  line-height: 60px;
+}
+
+.form__fieldset_button {
+  background-color: #2f80ed;
+}
+
+.form__fieldset_button:hover {
+  opacity: 70%;
+}
