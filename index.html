@@ -6,19 +6,8 @@
     <meta name="description" content="Cafeteria Triple10" />
     <meta name="author" content="Leandro" />
     <meta name="keywords" content="HTML, CSS, JavaScript." />
-    <link
-      rel="shortcut icon"
-      href="./favicon_coffee_bean.ico"
-      type="image/x-icon"
-    />
     <title>Coffee project</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -48,10 +37,9 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="span-accent">Café especial</span><br /><span
-            class="span-accent2"
-            >na bibloteca Triple Peaks</span
-          >
+          <span class="header__span-accent"
+            >Café especial</span
+          ><br />na bibloteca Triple Peaks
         </h1>
         <p class="header__description">
           Esta é a nossa zona de estudo! Temos aquele cafezinho para
@@ -81,7 +69,7 @@
             Confira algumas receitas que coletamos para o seu lanchinho caseiro:
           </p>
           <div class="recipes__videos">
-            <div class="video-item">
+            <div class="recipes__video-item">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/2rddGj6p6x4?si=A2MeSRWfVWAXF4Xi"
@@ -99,11 +87,11 @@
                 allowfullscreen
               >
               </iframe>
-              <h4 class="video-caption">
+              <h3 class="recipes__video-caption">
                 Torta Fácil de chocolate no liquidificador
-              </h4>
+              </h3>
             </div>
-            <div class="video-item">
+            <div class="recipes__video-item">
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/__rtbSd_OwI?si=8UZRWCBXDckgaPpp"
@@ -121,73 +109,71 @@
                 allowfullscreen
               >
               </iframe>
-              <h4 class="video-caption">
+              <h3 class="recipes__video-caption">
                 Bolo fofinho de cenoura com calda de chocolate
-              </h4>
+              </h3>
             </div>
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <h1 class="reservation__title">Reservar uma mesa</h1>
+          <h2 class="reservation__title">Reservar uma mesa</h2>
           <form class="form reservation__form">
-            <fieldset class="reservation__form form__fieldset">
-              <label class="form__fieldset form__fieldset_label" for="nome"
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="nome"
                 >Nome *</label
               >
               <input
-                class="form__fieldset form__fieldset_input"
+                class="form__input"
                 id="nome"
                 type="text"
-                placeholder="  Nome"
+                placeholder="Nome"
                 required
               />
-              <label class="form__fieldset form__fieldset_label" for="numero"
+              <label class="form__label" for="numero"
                 >Número de convidados *</label
               >
               <input
-                class="form__fieldset form__fieldset_input"
+                class="form__input"
                 id="numero"
                 min="1"
                 max="8"
                 type="number"
-                placeholder="  1-8"
+                placeholder="1-8"
                 required
               />
-              <label class="form__fieldset form__fieldset_label" for="data"
+              <label class="form__label" for="data"
                 >Data e hora *</label
               >
               <input
-                class="form__fieldset form__fieldset_input"
+                class="form__input"
                 id="data"
                 type="datetime-local"
                 required
               />
-              <label class="form__fieldset form__fieldset_label" for="email"
+              <label class="form__label" for="email"
                 >Seu email *</label
               >
               <input
-                class="form__fieldset form__fieldset_input"
+                class="form__input"
                 id="email"
                 type="email"
-                placeholder="  email@email.com"
+                placeholder="email@email.com"
                 required
               />
               <button
-                class="form__fieldset form__fieldset_button"
+                class="form__button"
                 type="submit"
               >
                 Reservar uma mesa
               </button>
-              <label class="form__fieldset form__fieldset_term">
+              <label for="termo" class="form__label_type_checkbox">
                 <input
-                  class="form__fieldset form__fieldset_input"
+                  class="form__checkbox"
                   id="termo"
                   type="checkbox"
                   required
                 />
-                <label class="form__fieldset form__fieldset_label" for="termo">
                   Eu concordo com o termos de uso
-                </label>
               </label>
             </fieldset>
           </form>

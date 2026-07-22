@@ -4,7 +4,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
   color: white;
   padding: 100px 80px 215px;
 }
@@ -31,8 +30,15 @@
   margin: 80px 0 0;
 }
 
+.recipes__video-caption {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .recipes__iframe {
-  height: 100%;
-  width: 100%;
+  width: 488px;
+  height: 273px;
   border-style: none;
 }

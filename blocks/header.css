@@ -11,12 +11,22 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 0 80px 0 80px;
+  padding: 30px 80px 40px;
 }
 
 .header__title {
   max-width: 709px;
-  padding: 183px 0 0;
+  margin-top: 183px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+  /* letter-spacing: -1px; */
 }
 
 .header__description {
@@ -48,4 +58,8 @@
   line-height: 20px;
   color: #838383;
   margin: 0;
+}
+
+#header__addres {
+  margin-top: auto;
 }

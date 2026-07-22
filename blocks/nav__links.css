@@ -1,9 +1,0 @@
-.nav__links {
-  list-style-type: none;
-  display: inline-flex;
-  position: absolute;
-  right: 80px;
-  top: 30px;
-  font-family: "Inter";
-  line-height: 20px;
-}
