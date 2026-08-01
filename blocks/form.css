@@ -25,6 +25,7 @@
   line-height: 60px;
   background-color: #2f80ed;
   color: white;
+  font-size: 20px;
 }
 
 .form__button:hover {

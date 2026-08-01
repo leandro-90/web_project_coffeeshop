@@ -29,6 +29,7 @@
 
 .footer__social-heading {
   font-weight: bold;
+  margin-top: 0;
 }
 
 .footer__social-list {
