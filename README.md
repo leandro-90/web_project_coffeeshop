@@ -9,3 +9,5 @@ A página foi construída usando as tecnologias...
 - Metodologia de organização BEM e BEM FLat.
 
 Nos sigas nas redes sociais.
+
+- Site: https://leandro-90.github.io/web_project_coffeeshop/
